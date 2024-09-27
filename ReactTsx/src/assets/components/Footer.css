@@ -1,0 +1,16 @@
+
+.sm-container {
+    display: flex;  
+    border-top:1px solid black;    
+    justify-content: space-between; 
+    align-items: center; 
+    height: 9vh;      
+    width: 100vw;               
+  }
+  
+  .sm-container img {
+    width: 40px;              
+    height: 40px;              
+    margin: 0 10px;   
+  }
+  

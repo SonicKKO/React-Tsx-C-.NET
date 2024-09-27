@@ -1,0 +1,137 @@
+
+.header {
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.header-container {
+  display: flex;
+
+  width: 1024px;
+}
+
+.list-container{
+  display: flex; 
+  width: 524px;
+  /* justify-content: center; */
+  align-items: flex-end; 
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  list-style-type:  none;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+  .logo-section {
+    width: 500px;
+    padding-top: 2px;
+    cursor: pointer;
+  }
+  
+  .logo-image {
+    height: 120px;
+    padding-top: 50px;
+    width: 350px;
+  }
+  
+  .right-section {
+    width: 55vw;
+    height: 9vh;
+    position: relative;
+    display: flex;
+  }
+  
+  .profile-link {
+    margin-left: auto;
+    align-self: flex-end;
+    font-size: medium;
+    padding-right: 2px;
+    cursor: pointer;
+  }
+  
+  .chat-icon {
+    margin-top: auto;
+    margin-bottom: 2px;
+    padding-left: 5px;
+  }
+  
+  .chat-image {
+    height: 25px;
+    margin-bottom: 7px;
+    cursor: pointer;
+  }
+  
+  /* .menu-icon {
+    font-size: 45px;
+    align-self: center;
+    width: 70px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .backdrop {
+    position: absolute;
+    translate: -46%;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+  }
+  
+  .menu-container {
+    position: absolute; 
+    right: 0;
+    width: 210px;
+    height: 100vh;
+    background-color: #718096;
+    z-index: 10;
+  }
+  
+  .menu-item {
+    cursor: pointer;
+    background-color: #4a5568;
+    color: white;
+    padding: 8px;
+    margin: 2px;
+  }
+
+  .menu-item:hover {
+    background-color: #5f6877;
+  }
+  
+  .logout-button {
+    background-color: #805ad5;
+    border-radius: 10px;
+    width: 80px;
+    margin: 4px;
+  }
+  
+  .delete-account {
+    font-size: 15px;
+    color: black;
+    text-decoration: underline;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    cursor: pointer;
+    margin: 4px;
+    width: 80px;
+    text-align: center;
+    background-color: #48bb78;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+  } */
+      
