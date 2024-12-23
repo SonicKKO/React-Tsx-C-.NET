@@ -2,6 +2,7 @@ import '../assets/pages/News.css'
 import shopLogo from '../assets/img/shop.png';
 import bestForbeg from '../assets/img/bestForbeg.jpg';
 import Post from '../components/NewsPage/Post';
+import Feedback from '../components/NewsPage/Feedback';
 
 function News() {
     return(
@@ -39,6 +40,7 @@ function News() {
 
               <div className='feedback'>
                 <h1>Feedback</h1>
+                <Feedback />
               </div>
             </div>
 

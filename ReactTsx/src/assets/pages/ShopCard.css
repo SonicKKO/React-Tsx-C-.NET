@@ -1,0 +1,85 @@
+.shop-card-container {
+    display: flex;
+    height: 200px;
+    box-shadow: 10px 5px 5px rgb(155, 154, 154);
+    margin-bottom: 40px;
+  }
+
+  .shop-card-container:hover {
+    box-shadow: 10px 5px 5px rgb(121, 120, 120);
+  }
+  
+  .shop-card-container img {
+    height: 105px;
+    width: 105px;
+    padding-top: 10%;
+  }
+  
+  .shop-card-container p {
+    color: grey;
+    font-size: 15px;
+    padding-left: 10px;
+  }
+  
+  .shop-card-container h1 {
+    font-size: 15px;
+  }
+  
+  .shop-card-container .price {
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .shop-card-container .btn-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-container button {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .btn-container .plus:hover {
+    background: #95ffc1;
+  }
+
+  .btn-container .minus:hover {
+    background: #e293a0;
+  }
+  
+  .btn-container .quantity {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 30px;
+  }
+
+  .delete-button {
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 230px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .delete-button:hover {
+    color: rgb(0, 0, 0);
+    background: #aa6c6c;
+  }
+  
+
+  /* анимки */
+
+  

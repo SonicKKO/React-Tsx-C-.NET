@@ -1,0 +1,81 @@
+
+hr {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.inf {
+  padding-top: 50px;
+}
+
+.inf hr {
+    width: 400px;
+}
+
+.register-container p {   
+   font-size: large;
+   text-align: center;
+}
+
+.register-container form {   
+    display: flex;
+    width: 700px;
+    height: 510px;
+    padding-top: 30px;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.register-container form label {
+    width: 450px;
+    margin-inline: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.register-container form input {
+    padding-top: 10px;
+    font-size: large;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.password-input {
+    display: flex;
+}
+
+.password-input button {
+    position: absolute;
+    transform: translateX(415px);
+    height: 35px;
+    width: 40px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    background-color: white;
+}
+
+.submit-button {
+    width: 100px;
+    margin-inline: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    transition: width 0.1s;
+}
+
+.submit-button:hover {
+    width: 107px;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.error {
+    justify-content: flex-start;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+

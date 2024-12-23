@@ -1,0 +1,12 @@
+input {
+    width: 100%;
+    outline: none;
+    border-top: #634e4e;
+    border-left: #634e4e;
+    border-right: #634e4e;
+    
+}
+
+input ::placeholder {
+    font-size: larger;
+}

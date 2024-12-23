@@ -1,0 +1,41 @@
+.notification-container {
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(-100px);
+}
+
+.notification {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background: #dcdfe6;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    transform: translate(38vw, 300px);
+}
+
+.notification h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family:serif;
+}
+.chose button {
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-inline: 65px;
+    border-radius: 5px;
+    border: 1px solid rgba(3, 3, 3, 0.445);
+}
+
+.chose .no:hover{
+    background: #ffa3a3;
+    border: 1px solid rgb(3, 3, 3);
+}
+
+.chose .yes:hover{
+    background: #abffa3;
+    border: 1px solid rgb(3, 3, 3);
+}

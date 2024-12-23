@@ -1,0 +1,31 @@
+/* .filter-container {
+
+} */
+
+.filter-container h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 21px;
+    font-family: FreeMono, monospace;
+    color: rgb(90, 86, 86);
+}
+
+.filter-container hr {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+  
+.filter-option {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding-top: 7px;
+    font-size: 16px;
+    font-family: math;
+}  
+.filter-option input[type="checkbox"] {   
+    width: 15px;
+}
+

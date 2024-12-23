@@ -1,0 +1,16 @@
+
+.comment {
+    display: flex;
+    gap: 5px; 
+    word-break:break-all;
+}
+.comment p {
+    margin-top: 0;
+    max-width: 210px;
+    font-size:large;
+}
+
+.comment strong {
+    min-width: 70 px;
+    font-size:large;
+}

@@ -1,0 +1,25 @@
+# сервер
+bin/
+obj/
+*.user
+*.suo
+*.vcxproj.user
+*.pdb
+*.vs/
+*.log
+packages/
+*.nupkg
+project.lock.json
+appsettings.Development.json
+appsettings.json
+.vscode/
+
+# клиент
+node_modules/
+dist/
+build/
+.env
+.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
