@@ -11,8 +11,10 @@ packages/
 *.nupkg
 project.lock.json
 appsettings.Development.json
-appsettings.json
+*/appsettings.json
+*/bin/Debug/**/*.json
 .vscode/
+
 
 # клиент
 node_modules/
